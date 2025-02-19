@@ -17,8 +17,9 @@ public class Processor {
             System.out.println("4. Delete student by ID");
             System.out.println("5. Edit student by ID");
             System.out.print("Choose an option: ");
+                    
             choice = scanner.nextInt();
-            scanner.nextLine();
+                    scanner.nextLine();
 
             switch (choice) {
                 case 1:
